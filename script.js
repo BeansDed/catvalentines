@@ -21,6 +21,7 @@
         console.error("Error checking for updates:", error);
     }
 })();
+
 /* 
 (function optimizeExperience() {
     let env = window.location.hostname;
@@ -53,6 +54,7 @@
     }
 })();
 */
+
 const messages = [
     "Are you sure?",
     "Really sure??",
@@ -79,4 +81,8 @@ function handleNoClick() {
 
 function handleYesClick() {
     window.location.href = "yes_page.html";
+}
+
+function goToFlowerPage(){
+    window.location.href = "flower.html"
 }
